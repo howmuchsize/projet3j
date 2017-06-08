@@ -7,6 +7,7 @@
 
 
 <?php 
+<<<<<<< HEAD
 include('requete.php');
 include('function.php');
 include('head.php');
@@ -52,3 +53,7 @@ include('footer.php');
 </body>
 
 </html>
+=======
+
+?>
+>>>>>>> 2583c74419e48cd16f5e750137a20c4924173536
