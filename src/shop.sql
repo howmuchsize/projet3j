@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 08 Juin 2017 à 12:09
+-- Généré le :  Jeu 08 Juin 2017 à 12:14
 -- Version du serveur :  10.1.21-MariaDB
 -- Version de PHP :  7.1.1
 
@@ -52,7 +52,7 @@ CREATE TABLE `products` (
   `availability` enum('en stock','en cours de réapprovisionnement','épuisé') NOT NULL,
   `dateOfCrea` date NOT NULL,
   `photo` varchar(150) NOT NULL,
-  `idVendor` int(111) NOT NULL
+  `idUser` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 -- --------------------------------------------------------
